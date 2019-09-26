@@ -139,6 +139,10 @@ class Food1 extends StatelessWidget {
                 )
               ]),
             ),
+
+            // SliverGrid(delegate: SliverChildBuilderDelegate((BuildContext context, int index){
+            //    return FruitsCard(fruits: fruit[index],);
+            // },childCount: fruit.length), gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),)
             SliverToBoxAdapter(
               child: Container(
                 height: 300,

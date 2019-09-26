@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:ranga_design/pages/home_page.dart';
+import 'package:ranga_design/Animation/hero_animation.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: HeroAnimation(),
     );
   }
 }
